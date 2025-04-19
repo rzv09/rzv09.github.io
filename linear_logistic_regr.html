@@ -18,22 +18,14 @@
         let's start with some of the math here.
     </p>
 
-    <h2>Example: Gradient Descent Update Rule</h2>
+    <h2>Linear Regression</h2>
     <p>
-        The gradient descent update rule for parameter \( \theta \) is given by:
+        We have \(X = [x_1, x_2, ..., x_n]^T\) observations and want to predict \(y\). We do so by modeling the data with a simple linear 
+        relationship of the form \(\hat{y} = X^Tw\). The typical loss function that we employ when fitting the model is the MSE loss: \(MSE = \frac{1}{N}\sum_{i=1}^N(y_i - \hat{y_i})^2\).
+        However, the choice of this loss function right off the bat can seem unmotivated. 
     </p>
-    <p>
-        \[
-        \theta := \theta - \eta \nabla_\theta J(\theta)
-        \]
-    </p>
+    
 
-    <h2>Example: Bayes' Theorem</h2>
-    <p>
-        \[
-        P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-        \]
-    </p>
     <p><a href="latex-notes.html">← Back to All Notes</a></p>
     <p><a href="index.html">← Back to Portfolio</a></p>
 </body>
